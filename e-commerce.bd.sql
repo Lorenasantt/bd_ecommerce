@@ -1,4 +1,4 @@
--- trabalho da melhor diciplina --
+-- trabalho da melhor disciplina --
 
 create database if not exists e_commerce;
 use e_commerce;
