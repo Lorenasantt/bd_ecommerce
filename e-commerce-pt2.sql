@@ -1,15 +1,15 @@
-
+use e_commerce;
 INSERT INTO cliente (nome, endereço, email, celular, data_nascimento) VALUES
-('João da Silva', 'rua fatima n92', 'joao@silva.com', '(11) 9999-9999', '12.03.1999'),
-('Maria da Silva', 'rua carlos caldeira n65', 'maria@silva.com', '(11) 9999-9999', '03.09.1988'),
-('José da Silva', 'rua forget n87', 'jose@silva.com', '(11) 9999-9999', '09.07.1997'),
-('Ana da Silva', 'rua marcolino n75', 'ana@silva.com', '(11) 9999-9999', '10.11.1987' ),
-('Pedro da Silva', 'rua garcia filho n320', 'pedro@silva.com', '(11) 9999-9999', '23.09.2000'),
-('Carlos da Silva', 'rua fernandinho set n122', 'carlos@silva.com', '(11) 9999-9999', '24.08.2000'),
-('Mariana da Silva', 'rua sirio lima n20', 'mariana@silva.com', '(11) 9999-9999', '30.12.1996'),
-('Rafael da Silva', 'rua galgo galego n32', 'rafael@silva.com', '(11) 9999-9999', '03.03.2004'),
-('Lucas da Silva', 'rua pikoks n69', 'lucas@silva.com', '(11) 9999-9999', '02.02.1999'),
-('Gabriel da Silva', 'rua jalmiro sinto n5', 'gabriel@silva.com', '(11) 9999-9999', '05.05.2005');
+('João da Silva', 'rua fatima n92', 'joao@silva.com', 1199999999, '1999-03-12'),
+('Maria da Silva', 'rua carlos caldeira n65', 'maria@silva.com', 119999999, '1988-03-09'),
+('José da Silva', 'rua forget n87', 'jose@silva.com', 1199999999, '1997-09-07'),
+('Ana da Silva', 'rua marcolino n75', 'ana@silva.com', 1199999999, '1987-09-10' ),
+('Pedro da Silva', 'rua garcia filho n320', 'pedro@silva.com', 1199999999, '2000-10-07'),
+('Carlos da Silva', 'rua fernandinho set n122', 'carlos@silva.com', 119999-9999, '2000-09-18'),
+('Mariana da Silva', 'rua sirio lima n20', 'mariana@silva.com', 1199999999, '19960-07-05'),
+('Rafael da Silva', 'rua galgo galego n32', 'rafael@silva.com', 99999999, '2004-12-09'),
+('Lucas da Silva', 'rua pikoks n69', 'lucas@silva.com', 1199999999, '1999-12-12'),
+('Gabriel da Silva', 'rua jalmiro sinto n5', 'gabriel@silva.com', 119999999, '2005-05-05');
 
 INSERT INTO produtos (nome, preço, descrição, qt_estoque) VALUES
 ( 'produto1', '200.00', 'descrção1', '12'),
