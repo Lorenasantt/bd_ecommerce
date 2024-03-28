@@ -24,7 +24,7 @@ INSERT INTO produtos (nome, preço, descrição, qt_estoque) VALUES
 ( 'produto10', '15.00', 'descrção10', '62');
 
 
-INSERT INTO pedidos (num_pedido, data_compra, valor_total, data_estimada_entrga) VALUES
+INSERT INTO pedidos (num_pedido, data_compra, valor_total, data_estimada_entrega) VALUES
 ( '1', '2024-12-12', '200.00', '2024-12-14'),
 ( '2', '2024-05-05', '10.00', '2024-05-07'),
 ( '3', '2024-07-09', '210.00', '2024-07-11'),
@@ -48,3 +48,24 @@ INSERT INTO itens (quantiade, valor_unt, valor_total) VALUES
 ( '1', '45.00', '45.00'),
 ( '2', '15.00', '30');
 
+UPDATE clientes
+SET celular = 1198765490
+WHERE nome = 'Maria da Silva';
+
+UPDATE produtos
+SET qt_estoque = 17
+WHERE id = 1;
+
+UPDATE pedidos
+SET data_estimada_entrega = '2024-12-15'
+WHERE nm_pedido = 1;
+
+UPDATE itens_pedido
+SET quantidade = 2
+WHERE id = 1;
+
+DELETE FROM clientes
+WHERE nome = 'Ana da Silva';
+
+DELETE FROM itens
+WHERE valor_total = '200.00';
