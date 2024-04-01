@@ -25,7 +25,7 @@ id_pedidos bigint primary key,
 num_pedido int unsigned not null,
 data_compra date not null,
 valor_total float (10,2) unsigned not null,
-data_estimada_entrga date not null
+data_estimada_entrega date not null
 );
 
 create table itens (
